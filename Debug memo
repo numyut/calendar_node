@@ -1,0 +1,8 @@
+ヌマンサタバサ
+2021-01-30
+13:00
+予定
+予定
+
+INSERT INTO schedules (username, date, time, title, contents, usr_id) VALUES ('ヌマンサタバサ', '2021-01-30', '13:00', '予定', '予定',1);
+alter table schedules modify time varchar(5);

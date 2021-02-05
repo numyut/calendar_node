@@ -1,0 +1,28 @@
+{
+  "name": "ec-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullcalendar/core": "^5.5.1",
+    "@fullcalendar/daygrid": "^5.5.0",
+    "@fullcalendar/vue": "^5.5.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fullcalendar": "^5.5.1",
+    "jQuery": "^1.7.4",
+    "mongoskin": "^2.1.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.10"
+  }
+}
