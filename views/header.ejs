@@ -1,0 +1,17 @@
+<header>
+  <div class="header-nav">
+    <a href="/">BLOG</a>
+    <p>ようこそ、<%= locals.username %>さん</p>
+    <ul>
+      <li><a href="/list1">記事一覧</a></li>
+      <% if (locals.isLoggedIn) { %>
+        <li><a href="/logout">ログアウト</a></li>
+      <% } else { %>
+        <!-- ユーザ登録画面へのリンク -->
+        <li><a href="/signup">スケジュール登録</a></li>
+        <li><a href="/login">ログイン</a></li>
+      <% } %>
+    </ul>
+  </div>
+  <p>スケジュール登録機能は「スケジュール登録」から</p>
+</header>
